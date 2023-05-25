@@ -1,0 +1,77 @@
+
+.nav_form{
+    max-width: 600px;
+    border: 2px solid #000;
+    text-align:center ;
+    margin: 10px auto 0 auto;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+.input{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto 5px auto;
+}
+.info_input{
+    width: 100%;
+    margin-bottom: 7px; 
+    font-size: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+#user_agreement{
+    text-decoration: none;
+}
+.nav_form h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.info_input_button{
+    color: #fff;
+    background-color: #000;
+}
+.confirmation{
+    display: flex;
+    padding: 3px;
+    border: 0;
+}
+.confirmation p{
+    margin-left: 5px;
+    font-size: 15px;
+    margin-top: 2px;
+    max-width: 100%;
+}
+.check{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+.info_input_button:hover{
+    background-color: rgb(41, 41, 41);
+}
+.error{
+    color: rgb(255, 0, 0);
+    text-align: left;
+    margin-bottom: 7px; 
+}
+.password {
+	position: relative;
+}
+.password-control {
+	position: absolute;
+	top: 4px;
+	right: 6px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(https://snipp.ru/demo/495/view.svg) 0 0 no-repeat;
+}
+.password-control.view {
+	background: url(https://snipp.ru/demo/495/no-view.svg) 0 0 no-repeat;
+}
+@media screen and (max-width: 650px){
+    .nav_form{
+        margin: 10px 10px 0 10px;
+    }
+}
